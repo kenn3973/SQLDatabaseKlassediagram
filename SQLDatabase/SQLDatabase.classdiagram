@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="daecb6fc-dd6a-4283-8e40-4552e72ff28d" name="SQLDatabase" linkedPackageId="fc0cf0b0-9c66-463b-940e-581411b51242" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="2f485301-e5e7-49e5-bc35-ef79c4c0053a">
+      <profileInstance Id="c43c0147-698d-4ec1-9e72-91cf1421775a" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="2b7dbb08-2e8e-4aac-ac7a-f83f215f67e7">
+      <profileInstance Id="97904a04-623d-4ca7-aab9-21fe91c2a255" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="29c49e75-ade5-417d-bce5-57a23d877d06" name="Scandic" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0e91d704-5179-43b8-a899-e02febfadbc0" />
+        <targetEnds>
+          <association Id="fd852487-372e-4ec5-aac4-67a0275ef0d5" isDerived="false" sourceEndRoleName="Scandic" targetEndRoleName="Værelser" isLeaf="false" isAbstract="false">
+            <classMoniker Id="4eafb570-e5d6-484b-b267-55d2a0a8ad5c" LastKnownName="Værelser" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2819aa24-0d39-4596-b927-54168aaffd2b" name="Scandic" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="b3828166-e210-4474-b013-aba51ef3ae42" name="Lower" value="1">
+                      <elementDefinition Id="53e2fc9b-e051-44d6-88ec-a906c323b4d8" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="250942dd-7d2c-47e5-b836-ce9a48b0acff" name="Upper" value="1">
+                      <elementDefinition Id="e66abc56-1dd0-4012-a1a1-afa7676d8c72" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="18b1bd81-c64b-4add-a343-b511069c96a4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="22ec5e55-c575-447c-9a5c-3dea78c0e628" name="Værelser" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="ce3bc3e2-28f9-412d-98bc-7357637ef790" name="Lower" value="1-*">
+                      <elementDefinition Id="cf018c7a-4097-417b-9aca-0a8ea38c25b2" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="2f2e29ec-5ebb-46f0-a0b2-890008edf779" name="Upper" value="1-*">
+                      <elementDefinition Id="b7b0140f-9d51-46c3-b00c-667527f721f5" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="e5df206b-e734-4dd5-ab50-4a7c97acef7d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5a77c9e1-3969-4667-86d8-880cab683965" />
+          </association>
+          <association Id="d2a5bfec-b5ce-453e-b09a-578217a11cfa" isDerived="false" sourceEndRoleName="Scandic" targetEndRoleName="Medarbejder" isLeaf="false" isAbstract="false">
+            <classMoniker Id="2178d176-356c-4fc7-b8a9-0d77df7b5bd0" LastKnownName="Medarbejder" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f44d7b75-d703-41c1-b294-14602c366b34" name="Scandic" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f90f3479-9cfc-4aa5-8f86-1a6ad6bfdb90" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="72e5079d-2edb-4cf9-b977-b745a587c271" name="Medarbejder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="1281ca33-0eeb-4b90-aca6-cded9a44e8d3" name="Lower" value="1-*">
+                      <elementDefinition Id="08ad1e01-65d4-42aa-9fde-3eeaf5d99bbf" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="f202479b-e896-4aed-a89e-081d72821954" name="Upper" value="1-*">
+                      <elementDefinition Id="c5cdc78f-5c51-4061-864d-ea8f72d1c105" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="c4023ca2-623e-4e64-b325-616efca8a286" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f5a30c7b-fe33-499e-91a4-0dbc58a4ecec" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="69ed570b-94cf-4e7b-a4a1-3f6b06cadd75" name="Adresser" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3547a08e-f717-4450-a2ac-5bb98a89c150" />
+          </property>
+          <property Id="4b3f66e6-35fa-4c82-8edf-65a053bde694" name="Hoteller" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="36bb0cdd-e776-439e-908a-1cbe8ccca273" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4eafb570-e5d6-484b-b267-55d2a0a8ad5c" name="Værelser" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="af6109f8-1df1-4027-b0a2-a0d61ebe0193" />
+        <ownedAttributesInternal>
+          <property Id="318da68d-61e2-403b-85fa-b9e2ad0d0b38" name="Nummer" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="54946090-6928-49b1-9d1e-e1ddb6642220" />
+          </property>
+          <property Id="1fffcf72-4253-4d76-9ac5-fad647485aa4" name="Enkelt værelse" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="67d001f2-c9bd-4ede-bc25-c61154dc0b1f" />
+          </property>
+          <property Id="46e5f7e5-ada1-4ce2-8503-6f2fb572c02e" name="Dobbel værelse" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="41c47d83-65d6-42e5-a775-2edb59e59d54" />
+          </property>
+          <property Id="629b4161-6bd0-4535-9356-6ccbe39ce0ae" name="Dobbelt m. spa" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4fe74a6c-1276-4c10-9def-449abfecc89e" />
+          </property>
+          <property Id="b47f22e6-99c6-472d-a0e1-636bfd7a6219" name="Dobbelt m. altan/suite" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="22e83c63-9a8e-4617-b157-1b1fe1c3af6d" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2178d176-356c-4fc7-b8a9-0d77df7b5bd0" name="Medarbejder" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ac740ba0-4c8a-4d32-94e0-6de80da13b2f" />
+        <ownedAttributesInternal>
+          <property Id="49a1087e-e2eb-4ecc-9720-eeded532651d" name="Bestyrer" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="917d6893-664f-4008-8779-a9147d4a1d7c" />
+          </property>
+          <property Id="92c1da68-12a4-4e0a-ace8-8ee3880ef669" name="Receptionister" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5461865b-4155-4569-b394-e01f4e5bc363" />
+          </property>
+          <property Id="6531c4b8-554e-4847-a6f3-778dfb180967" name="Service" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4a608f05-7596-4043-8f8d-524e8584e548" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c3a63a87-38de-483d-b5ed-2286dc10c41d" name="Priser" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e65ae9f8-e999-4860-b45c-fdd04a1e0c1d" />
+        <targetEnds>
+          <association Id="d7b6a53f-bd42-4205-98fc-b47cecf439af" isDerived="false" sourceEndRoleName="Priser" targetEndRoleName="Værelser" isLeaf="false" isAbstract="false">
+            <classMoniker Id="4eafb570-e5d6-484b-b267-55d2a0a8ad5c" LastKnownName="Værelser" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3107844d-311b-4c46-9f56-257e893213fe" name="Priser" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="40a91430-99e2-4c8f-8609-e763bfb0d1b8" name="Lower" value="5-*">
+                      <elementDefinition Id="5b5ac94f-e952-4cda-b093-94cbdd1e5c77" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="84739e3f-4be9-4727-a2c3-a6fc29beb02e" name="Upper" value="5-*">
+                      <elementDefinition Id="a6b613fd-7572-4c6f-9c0d-b4594552d17b" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="2f995fc4-2f93-4d2c-9a1b-802ffd2b1290" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c15c884a-5ad7-4386-9462-e74311b85300" name="Værelser" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e1b57f36-0cef-4b1f-9a64-b2b19978805e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="346fb87a-f379-4319-807b-1ad13481b37e" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="8aea328d-b789-4146-a5cc-22c0eb066fa6" name="Øverste etage 10 % dyrere" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f6f55f7d-e961-4a5c-95fc-cba2109eed80" />
+          </property>
+          <property Id="48cfd893-1cb1-4218-a2ba-f19cc036308a" name="Type værelser har forskellige priser" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6cbb25be-3da0-4d91-a217-647f8e2f06af" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="fc0cf0b0-9c66-463b-940e-581411b51242" name="SQLDatabase">
+    <elementDefinition Id="0281e107-5f43-4688-8965-deb65d33de1e" />
+  </package>
+</logicalClassDesignerModel>
